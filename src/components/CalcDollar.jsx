@@ -5,6 +5,16 @@ function CalcDollar() {
         alert(`bora`)
     })
 
+const calcular = (function ()  {
+const reais = document.getElementById("reais").value
+const cotacao = document.getElementById("cotacao").value
+const total = reais / cotacao
+alert(total)
+})
+
+
+
+
     };
     return (
         <>
