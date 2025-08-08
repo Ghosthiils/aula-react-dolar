@@ -1,6 +1,11 @@
 import './CalcDollar.css'
 
 function CalcDollar() {
+    const mensagem = (function () {
+        alert(`bora`)
+    })
+
+    };
     return (
         <>
         <form className='w-25 m-auto pt-5 pb-5'>
@@ -12,10 +17,11 @@ function CalcDollar() {
                 <label htmlFor="cotacao">Cotação do Dólar</label>
                 <input type="text" className='form-control' id='cotacao' />
             </div>
-            <button type='button' className='btn btn-primary w-100'>Calcular</button>
+            <button type='button' onClick={mensagem} className='btn btn-primary w-100'>Calcular</button>
         </form>
         </>
-    )
-}
+    );
+
+
 
 export default CalcDollar
