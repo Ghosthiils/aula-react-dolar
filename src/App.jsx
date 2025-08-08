@@ -2,6 +2,7 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Titulo from './components/Titulo';
+import Rodape from './components/rodape';
 
 function App() {
  
@@ -11,6 +12,7 @@ function App() {
       <div className='container'>
         <Titulo />
       </div>
+      <Rodape />
       
     </>
   )
